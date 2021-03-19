@@ -74,3 +74,47 @@ i:hover {
   padding: 10px 12px;
   margin: 0 10px;
 }
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: hsl(257, 40%, 49%) url(./images/bg-desktop.svg) left no-repeat;
+    background-size: auto 100%;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding: 65px 65px 0 65px;
+  }
+  .nav {
+    grid-column: 1/3;
+    display: flex;
+    //padding-bottom: 45px;
+  }
+  .logo {
+    width: 264px;
+  }
+  .image {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px 0 0;
+  }
+  .illustration {
+    max-width: 709px;
+  }
+  .content {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align:left;
+    padding-right: 30%;
+    margin: 0 0 0 15px;
+  }
+  .social {
+    grid-column: 1/3;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
