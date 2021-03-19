@@ -1,0 +1,76 @@
+body {
+  background: hsl(257, 40%, 49%) url(./images/bg-mobile.svg) top no-repeat;
+  background-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 45px;
+}
+.logo {
+  width: 40%;
+}
+.illustration {
+  width: 100%;
+  margin: 70px 0;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+.content p {
+  color: #fff;
+  letter-spacing: 0.04em;
+  line-height: 1.5em;
+}
+button {
+  height: 40px;
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  margin-top: 10px;
+}
+button:hover {
+  background: hsl(300, 69%, 71%);
+  color: #fff;
+}
+footer {
+  color: #fff;
+}
+.social {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+i {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+i:hover {
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+}
+.fa-instagram, .fa-twitter {
+  margin: 2px 0 0 2px;
+  margin: 0 10px;
+}
+.fa-facebook-f {
+  margin-top: 2px;
+  padding: 10px 12px;
+  margin: 0 10px;
+}
